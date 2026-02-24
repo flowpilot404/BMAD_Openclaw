@@ -1,19 +1,21 @@
 project:
-  name: "My SaaS App"
-  description: "A brief description of what you're building"
+  name: "{project}"
+  description: "{project_description}"
 
 paths:
-  root: "/path/to/your/project"
-  planning: "/path/to/your/project/_bmad-output/planning-artifacts"
-  implementation: "/path/to/your/project/_bmad-output/implementation-artifacts"
+  root: "{/path/to/your/project}"
+  planning: "{/path/to/your/project/_bmad-output/planning-artifacts}"
+  implementation: "{/path/to/your/project/_bmad-output/implementation-artifacts}"
 
 stack:
   frontend: "Next.js, Tailwind, ShadCN"
   backend: "Supabase"
   language: "TypeScript"
+  repo: "GitHub (private)"
+  deployment: "Vercel"
 
 constraints:
   max_stories_per_sprint: 5
-  require_code_review: true
+  require_code_review: false
   require_ux_review: false
   require_qa: false
